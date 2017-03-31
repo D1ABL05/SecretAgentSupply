@@ -1,3 +1,26 @@
 body, html {
   font-family: Helvetica Neue;
 }
+
+/* Classes */
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.header img {
+  height: 1.5em;
+  padding-right: 16px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 14px 0 14px .5em;
+}
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
