@@ -83,7 +83,7 @@ h4 {
   height: 400px;
 }
 
-.items {
+.items, .company{
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
@@ -107,6 +107,18 @@ h4 {
 }
 
 .description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
   display: block;
   background-color: black;
   color: white;
