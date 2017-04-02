@@ -6,6 +6,24 @@ body, html {
   font-family: Helvetica Neue;
 }
 
+nav {
+  background-color: red;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Classes */
 .header {
   background-color: black;
